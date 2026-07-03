@@ -24,11 +24,16 @@ nav.navbar ul {
 .dashboard-layout {
   display: flex;
 }
-
+input.searchinputfiled {
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 1px solid #dbdbdb;
+}
 .sidebar {
   width: 220px;
   min-height: 100vh;
-  background: white;
+  background: #746565;
+  color: #fff;
   padding: 20px;
   border-right: 1px solid #ddd;
 }
