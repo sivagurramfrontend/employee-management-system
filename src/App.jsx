@@ -34,7 +34,6 @@ const [cart, setCart] = useState([]);
       stock:true
     }
   ];
-  
   const [users, setUsers]= useState([]);
   const [search, setSearch] = useState("");
   const filteredProducts = Products.filter((product) =>
