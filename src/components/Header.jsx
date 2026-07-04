@@ -1,11 +1,10 @@
-function Header() {
-  return (
-    <div className="dashboard-header">
-      <h1>React Project </h1>
-      <p>React application</p>
-    </div>
-  );
+function Header(props){
+    return(
+        <header>
+            <h1>{props.title}</h1>
+         
+            
+        </header>
+    );
 }
-
 export default Header;
-
