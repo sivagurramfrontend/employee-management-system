@@ -5,6 +5,7 @@ import EmployeeCard from "./components/EmployeeCard.jsx";
 import Sidebar from "./components/Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import ProductList from "./components/ProductList.jsx";
 function App() {
   const [count, setCount] = useState(0);
   const increment = () => { setCount(count + 1); };
@@ -15,7 +16,7 @@ function App() {
       <Navbar />
       <div className="Appmain">
         <div className="dashboardmain">
-        <div className="sidebar">
+        <div className="sidebar" >
           <Sidebar />
         </div>
         <div className="leftpanel">
@@ -40,6 +41,9 @@ function App() {
             <EmployeeCard name="John Doe" role="Software Engineer" salary={50000} />
             <EmployeeCard name="Siva" role="QA Engineer" salary={40000} />
             <EmployeeCard name="Prasanna" role="Manager" salary={100000} />
+          </div>
+          <div className="productheader">
+            <ProductList />
           </div>
         </div>
         </div>
