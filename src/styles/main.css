@@ -1,7 +1,6 @@
 @import "tailwindcss";
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'AdobeClean-Regular';
 }
@@ -37,22 +36,7 @@ body {
   color: #0d6efd;
 }
 
-.btn-group {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-}
 
-button {
-  padding: 10px 18px;
-  border: none;
-  border-radius: 3px;
-  cursor: pointer;
-  background: #0d6efd;
-  color: white;
-  font-size: 16px;
-  transition: 0.3s;
-}
 
 .counterheader {
   text-align: center;

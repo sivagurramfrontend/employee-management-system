@@ -1,13 +1,10 @@
-function EmployeeCard(employee) {
-  return (
-    
+function EmployeeCard({name, role, status}) {
+    return(
         <div className="employee-card">
-            <h2>{employee.name}</h2>
-            <p><strong>Role:</strong> {employee.role}</p>
-            <p><strong>Salary:</strong> {employee.salary}</p>
-       </div>
-    
-  );
-  
+            <h3>{name}</h3>
+            <p>{role}</p>
+            <p>{status}</p>
+        </div>
+    );
 }
 export default EmployeeCard;

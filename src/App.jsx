@@ -6,6 +6,8 @@ import Sidebar from "./components/Sidebar.jsx";
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import ProductList from "./components/ProductList.jsx";
+import Login from "./components/Login.jsx";
+import Input from "./components/Input.jsx";
 function App() {
   const [count, setCount] = useState(0);
   const increment = () => { setCount(count + 1); };
@@ -16,10 +18,13 @@ function App() {
       <Navbar />
       <div className="Appmain">
         <div className="dashboardmain">
+         
         <div className="sidebar" >
           <Sidebar />
         </div>
         <div className="leftpanel">
+           <Login />
+           <Input />
           <Header class="mainheader" />
 
           <div className="counterheader">
