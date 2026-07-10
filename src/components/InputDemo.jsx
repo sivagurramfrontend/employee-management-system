@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Input() {
+function InputDemo() {
   const [name, setName] = useState("");
 
   return (
@@ -22,4 +22,4 @@ function Input() {
   );
 }
 
-export default Input;
+export default InputDemo;

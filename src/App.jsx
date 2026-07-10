@@ -7,7 +7,8 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import ProductList from "./components/ProductList.jsx";
 import Login from "./components/Login.jsx";
-import Input from "./components/Input.jsx";
+import InputDemo from "./components/InputDemo.jsx";
+import Todo from "./components/Todo.jsx";
 function App() {
   const [count, setCount] = useState(0);
   const increment = () => { setCount(count + 1); };
@@ -24,8 +25,9 @@ function App() {
         </div>
         <div className="leftpanel">
            <Login />
-           <Input />
-          <Header class="mainheader" />
+           <Todo />
+           <InputDemo />
+          <Header className="mainheader" />
 
           <div className="counterheader">
             <h1>Counter App</h1>
